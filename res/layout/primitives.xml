@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical"
+    android:overScrollMode="ifContentScrolls" >
+
+    <TextView
+        android:id="@+id/cubetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/primitives"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/addCube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cube" />
+
+    <Button
+        android:id="@+id/addParallelipipede"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parallellepippede" />
+
+    <Button
+        android:id="@+id/addPrisme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prisme" />
+
+    <Button
+        android:id="@+id/addCylindre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cylindre" />
+
+    <Button
+        android:id="@+id/addCone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cone" />
+
+    <Button
+        android:id="@+id/addSphere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sphere" />
+
+    <Button
+        android:id="@+id/addCoude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coude" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+Modelisation.NouveauCylindre(2,0,0,0.000,0.000,-220.000,-200.000,40.000,0.000,0,0,255);
+Modelisation.NouveauCone(2,1,0,0.000,0.000,-200.000,-180.000,40.000,30.000,0,0,255);
+Modelisation.NouveauLiaison(2,-80,80,0,0,0,0,0,0);
+Modelisation.NouveauCoude(0,2,-10.000, 10.000, 0.000,0.000,-180.000,-20.000,20.000,20.000,0,0,255);
+Modelisation.NouveauLiaison(0, -40.00,90.00,0.00,0.00,-20.00,0,0,0);
+Modelisation.NouveauCone(0,1,0,0.000,0.000,-20.000,-10.000,30.000,20.000,0,0,255);
+Modelisation.NouveauCoude(0, 0,-50.000,-20.000,0.000,80.000,0.000,0.000,30.000,20.000,0,0,255);
+Modelisation.NouveauLiaison(0,-90.00,90.00,0.00,80.00,-20.00,0,0,0);
+Modelisation.NouveauCoude(0,1,-20.000,0.000,0.000,80.000,20.000,20.000,20.000,20.000,0,0,255);
+Modelisation.NouveauCylindre(1,0,0,-10.000,20.000,80.000,100.000,15.000,0.000,0,0,255);
+Modelisation.NouveauCylindre(0,0,0,110.000,20.000,5.000,-25.000,13.000,0.000,0,0,255);
+Modelisation.NouveauCylindre(1,0,0,-10.000,20.000,110.000,140,10.000,0,0,0,255);
+Modelisation.NouveauParallelepipede(1,-10.000,20.000,140.000,150.000,10.000,36.000,0,0,255);
+Modelisation.NouveauParallelepipede(1,-10.000,36,150.000,175.000,10.000,4.000,0,0,255);
+Modelisation.NouveauParallelepipede(1,-10.000,4,150.000,175.000,10.000,4.000,0,0,255);

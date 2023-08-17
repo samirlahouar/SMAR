@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+	    android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/programTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/toolBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+     android:layout_marginLeft="10dp"
+    android:layout_marginTop="40dp"
+   
+    android:background="@color/black_overlay"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/last"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/icones"
+        android:text="" />
+
+    <Button
+        android:id="@+id/newSMR"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/newfile"
+        android:text="" />
+    
+<Button
+    android:id="@+id/Open"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/open"
+    android:text="" />
+
+<Button
+    android:id="@+id/Save"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/save"
+    android:text="" />
+  
+     <Button
+         android:id="@+id/animation"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:background="@drawable/simulation"
+         android:text="" />
+
+       <Button
+           android:id="@+id/addGeometry"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:background="@drawable/geometry"
+           android:text="" />
+     
+      <Button
+          android:id="@+id/newMaillon"
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:background="@drawable/maillon"
+          android:text="" />
+
+<Button
+    android:id="@+id/Tree"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/hierarchy"
+    android:text="" />
+
+<Button
+    android:id="@+id/parameters"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/parameters"
+    android:text="" />
+
+<Button
+    android:id="@+id/next"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="@drawable/next"
+    android:text="" />
+   
+</LinearLayout>
+<LinearLayout
+    android:id="@+id/dialogBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="200dp"
+    android:background="@color/black_overlay"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:visibility="invisible" >
+ <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to save changes"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ <LinearLayout
+      android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+ >
+     <Button
+    android:id="@+id/yes"
+      android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="yes" />
+     <Button
+    android:id="@+id/no"
+      android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="No" />   
+</LinearLayout>
+
+</LinearLayout>
+
+
+<LinearLayout
+    android:id="@+id/animationBox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="100dp"
+    android:background="@color/black_overlay"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:visibility="invisible" >
+
+     <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation Box"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ <ScrollView 
+    android:layout_width="150dp"
+    android:layout_height="200dp"
+    android:overScrollMode="ifContentScrolls"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="vertical|none">
+
+<LinearLayout
+    android:id="@+id/LinearAnimation"
+    android:layout_width="120dp"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:scrollbars="vertical" >
+
+  
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

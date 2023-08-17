@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  
+<LinearLayout
+    android:id="@+id/listeMaillons" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/treetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tree"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <SurfaceView
+     android:id="@+id/surfaceView1"
+     android:layout_width="2dp"
+     android:layout_height="2dp"
+     android:background="@color/black_overlay" />
+
+  </LinearLayout>
+  </ScrollView>
